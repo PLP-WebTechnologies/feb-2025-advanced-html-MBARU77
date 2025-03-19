@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> HTML Lists, Images, Tables & Forms</title>
+    </head>
+    <body>
+        <h2>Ordered Lists</h2>
+        <ol type="i">
+            <li>BMW</li>
+            <li>TOYOTA SUPRA</li>
+            <li>FORD GT40</li>
+        </ol>
+        <dl>
+            <dt>HTML</dt>
+            <dd> HyperText Markup Language</dd>
+        </dl> 
+        <h4>External Images</h4>
+        <img src="https://images.pexels.com/photos/1054655/pexels-photo-1054655.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" 
+        alt="Image of an elephant at sunset" height="500" width="500">
+        <h4>External Audio</h4>
+        <audio controls>
+            <source src="Chris Brown - Heat  ft. Gunna..mp3" type="audio/mp3">
+        </audio>
+        <h4>External Video</h4>
+        <video width="320" height="240" controls>
+            <source src="Meek Mill.mp4" type="video/mp4">
+        </video>
+        <h2>HTML Tables</h2>
+        <table border="1">
+            <thead>
+                <tr>
+                    <th>Name</th>
+                    <th>Address</th>
+                    <th>Mobile</th>
+                    <th>Email</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Eddyson</td>
+                    <td>96-EagleWood</td>
+                    <td>0798263623</td>
+                    <td>eddysonraya@gmail.com</td>
+                </tr>                         
+                <tr>
+                    <td>Roman</td>
+                    <td>sokoni 920</td>
+                    <td>0725536827</td>
+                    <td>romanreigns@yahoo.com</td>
+                </tr>
+                <tr>
+                    <td>Rusell</td>
+                    <td>kiwandani 27</td>
+                    <td>0735564734</td>
+                    <td>rusellwest@gmail.com</td>
+                </tr>
+                <tr>
+                    <td>Beauty</td>
+                    <td>47 water</td>
+                    <td>0732426273</td>
+                    <td>beautywangu@yahoo.com</td>
+                </tr>
+                <tr>
+                    <td>Brester</td>
+                    <td>09 nowhere</td>
+                    <td>0765432422</td>
+                    <td>bresterkiti@gmail.com</td>
+                </tr>
+            </tbody>
+        </table>
+        <h2>HTML Forms</h2>
+        <form action="#" method="post">
+            <!-- Name -->
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" placeholder="Enter your name" required>
+            <br><br>
+
+            <!-- Email -->
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" placeholder="Enter your email" required>
+            <br><br>
+
+            <!-- Password -->
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password" placeholder="Create a password" required>
+            <br><br>
+
+            <!-- Date -->
+            <label for="dob">Date of Birth:</label>
+            <input type="date" id="dob" name="dob" required>
+            <br><br>
+
+            <!-- Dropdown -->
+            <label for="role">Role:</label>
+            <select id="role" name="role" required>
+                <option value="">Select your role</option>
+                <option value="student">Student</option>
+                <option value="teacher">Teacher</option>
+                <option value="admin">Admin</option>
+            </select>
+            <br><br>
+
+            <!-- Radio Buttons -->
+            <label>Gender:</label>
+            <input type="radio" id="male" name="gender" value="male" required>
+            <label for="male">Male</label>
+            <input type="radio" id="female" name="gender" value="female" required>
+            <label for="female">Female</label>
+            <br><br>
+
+            <!-- Checkboxes -->
+            <label>Interests:</label>
+            <input type="checkbox" id="coding" name="interests" value="coding">
+            <label for="coding">Coding</label>
+            <input type="checkbox" id="sports" name="interests" value="sports">
+            <label for="sports">Sports</label>
+            <input type="checkbox" id="reading" name="interests" value="reading">
+            <label for="reading">Reading</label>
+            <br><br>
+
+            <!-- Submit Button -->
+            <button type="submit">Register</button>
+        </form>
+    </body>
+</html>
